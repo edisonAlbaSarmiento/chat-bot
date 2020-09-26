@@ -17,6 +17,9 @@ export const ContainerHeader = styled.div`
   border-radius: 30px;
   display: flex;
   justify-content: center;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 export const ContainerText = styled.div`
