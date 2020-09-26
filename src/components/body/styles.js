@@ -1,14 +1,13 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  width: 100%;
-  height: 100%;
   background-color: rgb(225, 44, 55);
   text-align: center;
   display: flex;
   justify-content: center;
-  padding-top: 3%;
-  padding-bottom: 3%;
+  padding: 3%;
+  flex-direction: column;
+
 `;
 
 export const ContainerHeader = styled.div`
@@ -69,4 +68,19 @@ export const Button = styled.button`
     transition: 1s;
   }
 
+`;
+
+
+export const ContainerScroll = styled.div`
+  padding: 2%;
+`;
+
+export const ButtonSecond = styled.img`
+  width: 24;
+  height: 34;
+`;
+
+export const TextButtonSecond = styled.h6`
+  color: #fff;
+  margin: 1%;  
 `;

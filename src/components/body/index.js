@@ -9,6 +9,9 @@ import {
 	DataSubTitle,
 	ContainerDescription,
 	Button,
+	ContainerScroll,
+	ButtonSecond,
+	TextButtonSecond,
 } from './styles'
 class Body extends Component {
     render() {
@@ -30,6 +33,11 @@ class Body extends Component {
 								</ContainerText>
 
 							</ContainerHeader>
+							<ContainerScroll>
+								<ButtonSecond src="https://themes.muffingroup.com/be/party3/wp-content/uploads/2020/02/party3-icon1.png" alt="party3-icon1" title="party3-icon1"/>
+								<TextButtonSecond>SCROLL DOWN</TextButtonSecond>
+							</ContainerScroll>
+						
             </Container>
         )
     }
