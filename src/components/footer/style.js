@@ -74,6 +74,18 @@ export const FooterStyle = styled.footer`
         text-align: center;
         color: ${bgColor};
       }
+      .icon-chat {
+        align-items: center;
+        background: white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        max-width: 43px;
+        margin: 0 auto 18px;
+        padding: 16px 6px;
+        text-align: center;
+        color: ${bgColor};
+      }
 
       ${resize.medium`
         display: block;

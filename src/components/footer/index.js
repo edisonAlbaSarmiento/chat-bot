@@ -43,7 +43,7 @@ const Footer = () => {
 							</span>
 						</li>
 						<li>
-							<span className="icon">
+							<span className="icon-chat">
 								<BsFillChatFill size="20px" />
 							</span>
 							<span className="label">CHAT</span>
