@@ -2,7 +2,7 @@ import { createChatBotMessage } from 'react-chatbot-kit';
 
 const config = { 
   botName: "LearningBot",
-  initialMessages: [createChatBotMessage("Hi, I'm here to help. What do you want to learn?")],
+  initialMessages: [createChatBotMessage("Hola, estoy aquí para ayudarte. Que quieres aprender?")],
   customStyles: {
     botMessageBox: {
       backgroundColor: "#376B7E",

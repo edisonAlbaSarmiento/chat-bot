@@ -8,6 +8,8 @@ class MessageParser {
       
       if (lowerCaseMessage.includes("hola")) {
         this.actionProvider.greet()
+      }else{
+        this.actionProvider.question();
       }
     }
   }

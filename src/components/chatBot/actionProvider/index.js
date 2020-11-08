@@ -8,6 +8,10 @@ class ActionProvider {
       const greetingMessage = this.createChatBotMessage("Hola, amigo.")
       this.updateChatbotState(greetingMessage)
     }
+    question() {
+      const greetingMessage = this.createChatBotMessage("Lo siento no tengo esa informacion")
+      this.updateChatbotState(greetingMessage)
+    }
     
     updateChatbotState(message) {
    
