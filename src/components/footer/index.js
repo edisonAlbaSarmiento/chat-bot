@@ -4,10 +4,14 @@ import { IoMdMail } from 'react-icons/io';
 import { FaFacebookF } from 'react-icons/fa';
 import { BsFillChatFill } from 'react-icons/bs';
 
-// Custom import
+// Custom import    position: fixed;
+    // top: 90%;
+    // bottom: 0px;
+    // right: 0px;
 import { FooterStyle } from './style';
 
 const Footer = () => {
+	
 	return (
 		<FooterStyle>
 			<div className="container">
