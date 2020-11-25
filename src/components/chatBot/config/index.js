@@ -1,14 +1,14 @@
 import { createChatBotMessage } from 'react-chatbot-kit';
 
 const config = { 
-  botName: "LearningBot",
+  botName: "Carnival party",
   initialMessages: [createChatBotMessage("Hola, estoy aquí para ayudarte. Que quieres aprender?")],
   customStyles: {
     botMessageBox: {
-      backgroundColor: "#376B7E",
+      backgroundColor: "rgb(225,44,55)",
     },
     chatButton: {
-      backgroundColor: "#376B7E",
+      backgroundColor: "rgb(225,44,55)",
     },
   },
 }
